@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'http://connectedinteractive.com'
   s.license          = { :type => "custom", :text => "                Copyright Connected Interactive \n\n                All rights reserved.\n\n                " }
   s.author           = { 'marcelosantosti' => 'marcelo@connectedinteractive.com' }
-  s.source           = { :git => 'https://github.com/connectedinteractive/ConnectTracker.git' }
+  s.source           = { :git => 'https://github.com/connectedinteractive/ConnectTracker.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
